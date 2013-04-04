@@ -1,0 +1,12 @@
+{
+    "source": "source",
+    "output": "_site",
+    "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{directory}}/{{filename}}/",
+    "writers": [
+        "nico.ArchiveWriter"
+        "nico.FileWriter",
+        "nico.PageWriter",
+        "nico.PostWriter",
+        "nico.StaticWriter",
+    ]
+}
