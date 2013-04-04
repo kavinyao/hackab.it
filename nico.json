@@ -2,6 +2,9 @@
     "sitename": "hack a bit",
     "author": "Kavin Yao",
 
+    "ga": "UA-27956411-1",
+    "disqus": "hackabit",
+
     "source": "source",
     "output": "_site",
     "engine": "jade",
