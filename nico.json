@@ -1,12 +1,18 @@
 {
+    "sitename": "hack a bit",
+    "author": "Kavin Yao",
+
     "source": "source",
     "output": "_site",
+    "engine": "jade",
+    "theme": "_themes/minimalist",
     "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{directory}}/{{filename}}/",
+
     "writers": [
-        "nico.ArchiveWriter"
+        "nico.ArchiveWriter",
         "nico.FileWriter",
         "nico.PageWriter",
         "nico.PostWriter",
-        "nico.StaticWriter",
+        "nico.StaticWriter"
     ]
 }
