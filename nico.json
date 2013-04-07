@@ -9,6 +9,7 @@
     "output": "_site",
     "engine": "jade",
     "theme": "_themes/minimalist",
+    "directory_template": "tag",
     "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{directory}}/{{filename}}/",
 
     "writers": [
@@ -16,6 +17,7 @@
         "nico.FileWriter",
         "nico.PageWriter",
         "nico.PostWriter",
-        "nico.StaticWriter"
+        "nico.StaticWriter",
+        "nico.TagWriter"
     ]
 }
