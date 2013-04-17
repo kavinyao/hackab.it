@@ -1,5 +1,6 @@
 {
     "sitename": "hack a bit",
+    "siteurl": "http://hackab.it",
     "author": "Kavin Yao",
 
     "ga": "UA-27956411-1",
@@ -15,6 +16,7 @@
     "writers": [
         "nico.ArchiveWriter",
         "nico.FileWriter",
+        "nico.FeedWriter",
         "nico.PageWriter",
         "nico.PostWriter",
         "nico.StaticWriter",
