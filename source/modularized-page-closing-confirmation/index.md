@@ -7,7 +7,7 @@
 
 I came across a problem when building a UCG website: how to issue a warning when the user is leaving the current page but has unsaved content?
 
-The answer is actually quite simple. A quick search would lead you to the [`beforeunload`][mdn-beforeunload] event, which is triggered when a document is *about to* be unloaded. Speaking less technically, `beforeunload` is triggered when a the page is about to close, e.g. the user closes the page, refreshes the page or goes to another page (by entering a new URL in the address bar or following a hyperlink). Whatever, this is just what we need. BTW, hooking the [`unload`][mdn-unload] is too late.
+The answer is actually quite simple. A quick search would lead you to the [`beforeunload`][mdn-beforeunload] event, which is triggered when a document is *about to* be unloaded. Speaking less technically, `beforeunload` is triggered when a the page is about to close, e.g. the user closes the page, refreshes the page or goes to another page (by entering a new URL in the address bar or following a hyperlink). Whatever, this is just what we need. BTW, hooking [`unload`][mdn-unload] is too late.
 
 [mdn-beforeunload]: https://developer.mozilla.org/en-US/docs/DOM/Mozilla_event_reference/beforeunload
 [mdn-unload]: https://developer.mozilla.org/en-US/docs/DOM/Mozilla_event_reference/unload
@@ -35,7 +35,7 @@ So far, so great. But our situation is a bit more complex than that: as users ca
 * has the user included a video link from youtube?
 * …and so on
 
-Putting all these in one grand event handler is a rather bad idea as this breaks modularization. Let each module handle `beforeunload` respectively is better but the **intention** would be broken to several places. What can we do?
+Putting all these in one grand event handler is a rather bad idea as this breaks modularization. Letting each module handle `beforeunload` respectively seems better but the **intention** would be broken to several places. What can we do?
 
 Fortunately we can achieve this with custom jQuery event. Let the event type be `webapp:page:closing`. We define a protocol over it:
 
@@ -43,7 +43,7 @@ Fortunately we can achieve this with custom jQuery event. Let the event type be 
 2. If `preventDefault` of the event object is called, the default behavior is cancelled, i.e. the user has to confirm closing page.
 3. A module can optionally attach a message for the user, but like `beforeunload`, the message may be ignored by the browser.
 
-With reference to the [Event Object][jquery-event-object] documentation and [this SO answer][so-event-custom-value] concerning custom property of event, we turn the boilerplate code above into this:
+With reference to the [Event Object][jquery-event-object] documentation and [this SO answer][so-event-custom-value] concerning custom property of event, we turn the boilerplate code above into this (e.g., in `core.js`):
 
 [jquery-event-object]: http://api.jquery.com/category/events/event-object/
 [so-event-custom-value]: http://stackoverflow.com/a/11077126/1240620
@@ -70,7 +70,7 @@ $(window).on('webapp:page:closing', function(e) {
 });
 ```
 
-You can see that `webapp:page:closing` event is something like `beforeunload` with more regular interface (cancellable with `preventDefault`). This solution has all the benefits we want: clear intention, keeping modularization as well as decentralized control.
+You can see that `webapp:page:closing` event is something like `beforeunload` yet with a more regular interface (cancellable with `preventDefault`). This solution has all the benefits we want: clear intention, keeping modularization as well as decentralized control.
 
 Hope this post gives you some insight on the usage of jQuery custom event!
 
