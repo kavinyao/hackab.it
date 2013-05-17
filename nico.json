@@ -12,6 +12,7 @@
     "theme": "_themes/minimalist",
     "directory_template": "tag",
     "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{directory}}/{{filename}}/",
+    "feed_output": "atom.xml",
 
     "writers": [
         "nico.ArchiveWriter",
