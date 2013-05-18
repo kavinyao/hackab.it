@@ -1,4 +1,4 @@
-# Modularized Page Closing Confirmation with beforeunload and jQuery Custom Event
+# Page Closing Confirmation with jQuery Custom Event
 
 - tags: jQuery, event, beforeunload
 - pubdate: 2013-05-06
