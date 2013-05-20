@@ -5,6 +5,8 @@
 
     "ga": "UA-27956411-1",
     "disqus": "hackabit",
+    "license": "CC BY-NC 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
 
     "source": "source",
     "output": "_site",
