@@ -9,9 +9,9 @@ file=posts/$1.md
 echo "Creating $file..."
 touch $file
 
-echo "Creating nico post..."
+echo "Creating nico post [source/$1/index.md]..."
 mkdir source/$1
 ln -s ../../$file source/$1/index.md
 
 echo
-echo "Opening $file to edit."
+echo "Open $file to edit."
