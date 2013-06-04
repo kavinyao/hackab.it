@@ -1,7 +1,7 @@
 # Thinking Functional Programming
 
 - pubdate: 2013-05-18
-- tags: FP
+- tags: functional programming, thinking, tutorial, introduction
 - description: A little, practical, contrived guide to help you understand functional programming.
 
 ---

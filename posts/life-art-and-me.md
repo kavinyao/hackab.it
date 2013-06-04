@@ -1,7 +1,7 @@
 # 生活，艺术和我
 
-- tags: art, GRE, life, me, reading
 - pubdate: 2011-12-22
+- tags: art, GRE, life, me, reading
 
 ---
 

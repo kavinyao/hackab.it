@@ -2,6 +2,7 @@
 
 - pubdate: 2012-07-02
 - tags: learning, review, ted, thinking
+- description: 这篇文章是我的《TED演讲赏析》课的总结。
 
 ---
 

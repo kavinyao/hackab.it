@@ -1,7 +1,8 @@
 # Page Closing Confirmation with jQuery Custom Event
 
-- tags: jQuery, event, beforeunload
 - pubdate: 2013-05-06
+- tags: jQuery, event, beforeunload
+- description: This article describes a simple solution to cross module page closing confirmation handling using jQuery custom event.
 
 ---
 
