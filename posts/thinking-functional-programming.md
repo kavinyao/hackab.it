@@ -47,7 +47,7 @@ However, the scope of using functions as value in C is limited in:
 2. you cannot create functions at runtime
 3. functions are always sealed environments, i.e. you cannot access non-local variables
 
-While the first point is trivial, the following two are important. And we will demonstrate why along the way.
+While the first point is trivial, the rest two are important. And we will demonstrate why along the way.
 
 ## FP is about abstraction
 
@@ -286,7 +286,7 @@ list_mul_2([1, 2, 3]) # -> [2, 4, 6]
 list_m3_a4([1, 2, 3]) # -> [7, 10, 13]
 ```
 
-We are getting the final step and our remaining job is to get rid of abstract out `mul_add`. Why? Because there's a pattern in it, let's see:
+We are near the final step and our remaining job is to get rid of abstract out `mul_add`. Why? Because there's a pattern in it, let's see:
 
 ```python
 def mul_add(a, b, x):
