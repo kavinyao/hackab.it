@@ -2,6 +2,7 @@
     "sitename": "hack a bit",
     "siteurl": "http://hackab.it",
     "author": "Kavin Yao",
+    "description": "Blog of Kavin Yao. - We are what we think.",
 
     "ga": "UA-27956411-1",
     "disqus": "hackabit",
