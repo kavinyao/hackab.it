@@ -1,0 +1,1 @@
+../../posts/what-i-wish-i-knew-when-i-was-20.md
