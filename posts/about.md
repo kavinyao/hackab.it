@@ -4,7 +4,9 @@
 
 This is Jiawei "Kavin" Yao.
 
-I'm currently an undergraduate student at Software Institute, Nanjing University.
+I'm currently a master student studying Computer Science at Stanford University.
+
+I graduated from Software Institute, Nanjing University with a Bachelor of Engineering degree.
 
 I love thinking, reading, programming and everything challenging and interesting.
 
