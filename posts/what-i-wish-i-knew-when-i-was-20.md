@@ -98,7 +98,7 @@ You are always told the safe paths: safe dishes to eat at an unfamiliar restaura
 
 And most of the times, maybe, you follow them. Why not? Not being part of the mainstream incurs (much) more risk. Nobody likes taking risk. Or really?
 
-The problem is that doing things everybody does imposes a greater chance that you become a common person. By common I mean near the middle of a normal distribution. In contrast, following less safer paths makes you a more unique entity. Having a (relatively) less popular hobby, electing a purported difficult course, trying some food with strange name or fancy appearance… (but don't be too extreme.)
+The problem is that doing things everybody does imposes a greater chance that you become an ordinary person. By ordinary I mean near the middle of a normal distribution. In contrast, following less safer paths makes you a more unique entity. Having a (relatively) less popular hobby, electing a purported difficult course, trying some food with strange name or fancy appearance… (but don't be too extreme.)
 
 This is actually a problem of probability. Safe choices may be statistically better, but there's still a chance they don't fit you well. And vice versa. Moreover, safe paths may be the result of [Matthew Effect][matthew] and [Anecdotal Evidence][anecdotal]. You should be critical about this matter.
 
