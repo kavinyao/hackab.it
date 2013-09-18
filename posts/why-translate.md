@@ -1,6 +1,6 @@
 # 我为什么翻译
 
-- pubdate: 2013-09-07
+- pubdate: 2013-09-16
 - tags: learning, translation, college
 - description: 这篇文章关于我的翻译之路以及翻译的好处。
 
