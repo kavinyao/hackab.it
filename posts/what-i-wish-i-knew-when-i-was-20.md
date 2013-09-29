@@ -24,7 +24,7 @@ Confess your guilt. If you don't consider yourself a saint, you are expected to 
 
 ## break assumptions
 
-We live with assumptions. Some are minor, say *I suppose I can finish this assignment witgin 1 hour*, while others are profound, *like I'm a dull guy and unpopular among friends*. Assumptions are essential in our life, silent and most of the time they happen the same as we think.
+We live with assumptions. Some are minor, say *I suppose I can finish this assignment within 1 hour*, while others are profound, *like I'm a dull guy and unpopular among friends*. Assumptions are essential in our life, silent and most of the time they happen the same as we think.
 
 However, assumptions are just … assumptions, which may not work and lead to surprises, good or bad. I find tacit assumptions especially dangerous when interacting with other people: it's nothing when things go smoothly but it will be awful when things do go wrong. So for **important** stuff, I try my best to check the assumptions beforehand: will there be any traffic jam that make me late for the job interview? Are three pairs of trousers enough for this trip?
 
