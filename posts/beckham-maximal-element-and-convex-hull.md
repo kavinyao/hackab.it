@@ -1,7 +1,7 @@
 # 贝克汉姆，极大元与凸包
 
 - pubdate: 2012-07-11
-- tags: maximal element, convex hall, Chan's Algorithm, life
+- tags: maximal element, convex hall, life
 - description: 诚然，我们生活的世界，是一个充满了艺术、需要用感性去体验的世界，但点点滴滴之中也不乏科学的道理。之所以写这篇文章，不仅想记录使用网络发现知识的惊喜与快乐，也是我对理论与生活结合的坚信。
 
 ---
@@ -66,7 +66,7 @@
 
 evil？convex hull？不管怎样，原来最优算法是O(NlogH)的！老外继续说道：
 
-> The problem is called 2D MAXIMA and is the typically the domain of computational geometers because of its close relationship to computing convex hulls. I can't find a good description of a O(n log h) algorithm for the maxima problem, but Timothy Chan's O(n log h) algorithm for 2D CONVEX HULL should give you the flavor.
+> The problem is called 2D MAXIMA and is the typically the domain of computational geometry because of its close relationship to computing convex hulls. I can't find a good description of a O(n log h) algorithm for the maxima problem, but Timothy Chan's O(n log h) algorithm for 2D CONVEX HULL should give you the flavor.
 
 Wow，原来这个问题是一个经典的计算几何问题。在二维/三维平面上可以用[Chan's Algorithm][chans_algo]达到`O(NlogH)`的时间复杂度。
 
