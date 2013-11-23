@@ -2,6 +2,7 @@
     "sitename": "hack a bit",
     "siteurl": "http://hackab.it",
     "author": "Kavin Yao",
+    "twitter": "kavinyao",
     "description": "Blog of Kavin Yao. - We are what we think.",
 
     "ga": "UA-27956411-1",
@@ -13,7 +14,7 @@
     "output": "_site",
     "engine": "jade",
     "theme": "_themes/minimalist",
-    "directory_template": "tag",
+    "tag_template": "tag",
     "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{directory}}/{{filename}}/",
     "feed_output": "atom.xml",
 
