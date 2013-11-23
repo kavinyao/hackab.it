@@ -5,13 +5,10 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
-file=posts/$1.md
+file=source/$1.md
 echo "Creating $file..."
 touch $file
 
-echo "Creating nico post [source/$1/index.md]..."
-mkdir source/$1
-ln -s ../../$file source/$1/index.md
-
 echo
-echo "Open $file to edit."
+echo "Opening $file..."
+open $file
