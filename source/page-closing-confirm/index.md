@@ -1,1 +1,0 @@
-../../posts/page-closing-confirm.md

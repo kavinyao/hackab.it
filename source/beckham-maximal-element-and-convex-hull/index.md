@@ -1,1 +1,0 @@
-../../posts/beckham-maximal-element-and-convex-hull.md

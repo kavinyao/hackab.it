@@ -1,1 +1,0 @@
-../../posts/review-of-ted-course.md

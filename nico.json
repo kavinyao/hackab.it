@@ -15,7 +15,7 @@
     "engine": "jade",
     "theme": "_themes/minimalist",
     "tag_template": "tag",
-    "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{directory}}/{{filename}}/",
+    "permalink": "{{pubdate.year}}/{{pubdate.month}}/{{filename}}/",
     "feed_output": "atom.xml",
 
     "writers": [

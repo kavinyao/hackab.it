@@ -1,1 +1,0 @@
-../../posts/beware-of-scope-in-python-2.md

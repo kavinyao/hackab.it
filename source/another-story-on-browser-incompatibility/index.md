@@ -1,1 +1,0 @@
-../../posts/another-story-on-browser-incompatibility.md

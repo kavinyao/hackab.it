@@ -1,1 +1,0 @@
-../../posts/thinking-functional-programming.md

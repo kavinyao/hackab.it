@@ -1,1 +1,0 @@
-../../posts/college-knowledge-and-me.md

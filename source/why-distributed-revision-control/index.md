@@ -1,1 +1,0 @@
-../../posts/why-distributed-revision-control.md

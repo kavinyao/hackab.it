@@ -1,1 +1,0 @@
-../../posts/life-art-and-me.md

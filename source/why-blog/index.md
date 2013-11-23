@@ -1,1 +1,0 @@
-../../posts/why-blog.md
