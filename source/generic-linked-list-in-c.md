@@ -2,7 +2,7 @@
 
 - pubdate: 2014-01-13
 - tags: C, kernel, data structure
-- description: This article introduces a rarely seen C-implementation of generic linked list, which is actually the implemented in the Linux kernel.
+- description: This article introduces a relatively rarely seen C-implementation of generic linked list, which is actually implemented in the Linux kernel.
 
 ---
 
