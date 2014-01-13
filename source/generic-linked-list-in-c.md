@@ -101,7 +101,7 @@ So you see the key part is how to implement `offsetof`. It is implemented as, ag
 #define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *) 0)->MEMBER)
 ```
 
-Did you get the trick? First we take address 0 as `TYPE *`, then get the address of its member `MEMBER`. Since the base address is 0, the address of `MEMBER` equals the offset. (Note we are taking the address of MEMBER, not accessing it, so there's no problem using address 0.)
+Did you get the trick? First we take address 0 as `TYPE *`, then get the address of its member `MEMBER`. Since the base address is 0, the address of `MEMBER` equals the offset. (Note we are taking the address of `MEMBER`, not accessing it, so there's no problem using address 0.)
 
 That's it. And with clearly defined linked list API, we can do things like:
 
@@ -117,7 +117,7 @@ for (e = list_begin (&foo_list); e != list_end (&foo_list); e = list_next (e))
 
 So you see, using the above implementation, DMA could be eliminated totally in contexts where full access to all memory is granted. And an operating system kernel like Pintos is clearly among them. Even if you don't program OS kernels, you can still get a performance gain because the number of DMA per list node is reduced to 1.
 
-The downside is obvious as well: you *have to* fuse `struct list_elem` into every user defined type that you want to put into a linked list, even if in most programs the objects won't be in any linked list. But at least in the context of OS kernel, where processes and threads are organized in different linked lists, using this solution is not only fine but also natural.
+The downside is obvious as well: you *have to* fuse `struct list_elem` into every user defined type that you might put into a linked list, even if in most programs the objects won't be in any linked list. But at least in the context of OS kernel, where processes and threads are organized in different linked lists, using this solution is not only fine but also natural.
 
 Actually, this is the way how Linux kernel implements [doubly linked list](https://github.com/torvalds/linux/blob/master/include/linux/list.h) (and I think maybe Pintos just copied the design).
 
