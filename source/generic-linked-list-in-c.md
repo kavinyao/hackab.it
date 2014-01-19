@@ -119,6 +119,8 @@ So you see, using the above implementation, DMA could be eliminated totally in c
 
 The downside is obvious as well: you *have to* fuse `struct list_elem` into every user defined type that you might put into a linked list, even if in most programs the objects won't be in any linked list. But at least in the context of OS kernel, where processes and threads are organized in different linked lists, using this solution is not only fine but also natural.
 
-Actually, this is the way how Linux kernel implements [doubly linked list](https://github.com/torvalds/linux/blob/master/include/linux/list.h) (and I think maybe Pintos just copied the design).
+Another consequence is much more undesirable, however. As every `list_elem` can only exist in *one* linked list, if you want to put the same object into several linked lists, you have to put more than one `list_elem` into its fields. But how could you estimate how many linked list you are going to put a particular object in? As a result, you end up creating wrapper `struct`s for the object.
+
+Finally, this is actually the way how Linux kernel implements [doubly linked list](https://github.com/torvalds/linux/blob/master/include/linux/list.h) (and I think maybe Pintos just copied the design).
 
 Hope this relatively rarely seen C-implementation of generic linked list sheds some light on your understanding of C.
