@@ -60,14 +60,34 @@ for(auto it = iv.begin();it != iv.end();++it) {
 }
 ```
 
-This handy feature can reduce verbosity greatly. For example
+This handy feature can reduce verbosity greatly. For example, instead of writing:
 
 ```cpp
-WindowController *controller = new WindowController;
-auto controller = new WindowController;
+void DoSomething(const multimap<string, vector<int>>& myMap)
+{
+    const pair<multimap<string, vector<int> >::const_iterator,
+               multimap<string, vector<int> >::const_iterator> eq =
+        myMap.equal_range("String!");
+    for (multimap<string, vector<int>>::const_iterator itr = eq.first;
+        itr != eq.second; ++itr)
+        cout << itr->size() << endl;
+}
 ```
 
-I believe Java guys will envy this feature. ;)
+You can write:
+
+```cpp
+void DoSomething(const multimap<string, vector<int>>& myMap)
+{
+    const auto eq = myMap.equal_range("String!");
+    for(auto itr = eq.first; itr != eq.second; ++itr)
+        cout << itr->size() << endl;
+}
+```
+
+(example taken from [Keith Schwarz](http://www.keithschwarz.com/)'s [CS106L Course Reader](http://www.keithschwarz.com/coursereader.pdf))
+
+That's not only good for your fingers but also good for your eyes.
 
 *Advanced Tip: you will be able to use `auto` keyword to do function return type deduction in C++14.*
 
@@ -92,6 +112,8 @@ for(auto &o : queue) { // type of o is HeavyClass&
     // manipulate o
 }
 ```
+
+*Advanced Tip: In order for ranged-based for loop to work, the object provided to it must satisfy [some properties](http://www.cprogramming.com/c++11/c++11-ranged-for-loop.html). As a result, while you can do range-based loop on most STL collections (including `string`), you cannot directly range-based loop over raw types like `char *`. So, it turns out, C++11 range-based for loop is actually a syntactic sugar.*
 
 ## hashtable containers
 
@@ -187,7 +209,7 @@ int main() {
 }
 ```
 
-Not surprisingly, C++11 anonymous functions support closures. You can capture outer variables in `[]`. A simple example is to find number of values less than `threshold`:
+Not surprisingly, C++11 anonymous functions support closures. You can capture variables outside the lambda's scope with `[]`. A simple example is to find number of values less than `threshold`:
 
 ```cpp
 vector<int> numbers = {1, 2, 3, 4, 5, 6};
