@@ -65,8 +65,8 @@ This handy feature can reduce verbosity greatly. For example, instead of writing
 ```cpp
 void DoSomething(const multimap<string, vector<int>>& myMap)
 {
-    const pair<multimap<string, vector<int> >::const_iterator,
-               multimap<string, vector<int> >::const_iterator> eq =
+    const pair<multimap<string, vector<int>>::const_iterator,
+               multimap<string, vector<int>>::const_iterator> eq =
         myMap.equal_range("String!");
     for (multimap<string, vector<int>>::const_iterator itr = eq.first;
         itr != eq.second; ++itr)
