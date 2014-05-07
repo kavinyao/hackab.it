@@ -1,9 +1,9 @@
-# What I Wish I Knew When I Was 20
-
-- pubdate: 2013-08-18
-- tags: life, experience, advice
-- description: Kavinyao's list of some life advice.
-
+---
+layout: post
+title: "What I Wish I Knew When I Was 20"
+date: 2013-08-18
+tags: life, experience, advice
+description: "Kavinyao's list of some life advice."
 ---
 
 Near the end of my sophomore year, I read Tina Seelig's *What I Wish I Knew When I Was 20*. The book is subtitled *A Crash Course on Making Your Place in the World* and I think it really means it, with lots of solid examples and useful advice. I recommend you for a read and you can take a peek at [my excerpts][excerpt-url].

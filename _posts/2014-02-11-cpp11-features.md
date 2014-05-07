@@ -1,9 +1,9 @@
-# C++11 Features Every C++ Programmer Should Know
-
-- pubdate: 2014-02-11
-- tags: C++, language
-- description: This article introduces several C++11 features that can simplify your C++ program and make you more productive.
-
+---
+layout: post
+title: "C++11 Features Every C++ Programmer Should Know"
+date: 2014-02-11
+tags: C++, language
+description: "This article introduces several C++11 features that can simplify your C++ program and make you more productive."
 ---
 
 Recently I've been practicing [LeetCode](http://oj.leetcode.com/) problems for technical interview. LeetCode OJ supports C++11 and I feel great writing code with it. While there are articles introducing C++11 features (for example [this one](http://www.codeproject.com/Articles/570638/Ten-Cplusplus11-Features-Every-Cplusplus-Developer)), most of them are too deep. I don't believe you need to understand move semantics before you write a well-formed C++ program.
@@ -16,10 +16,12 @@ Before we start: if you want to compile the examples, please make sure your favo
 
 C++, and also many old languages, lack support for literals for non-native types like `vector` and `map`. With C++11 initializer list, you can initialize them like this:
 
+{% raw %}
 ```cpp
 vector<int> iv = {1, 2, 3, 4};
 map<int, string> employees = {{1, "John"}, {2, "Mary"}};
 ```
+{% endraw %}
 
 Note as `map` (and also `unordered_map`, see below) stores key-value pairs internally, the syntax is like initializing a set of pairs.
 

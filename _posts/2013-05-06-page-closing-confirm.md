@@ -1,9 +1,9 @@
-# Page Closing Confirmation with jQuery Custom Event
-
-- pubdate: 2013-05-06
-- tags: jQuery, event, beforeunload
-- description: This article describes a simple solution to cross module page closing confirmation handling using jQuery custom event.
-
+---
+layout: post
+title: "Page Closing Confirmation with jQuery Custom Event"
+date: 2013-05-06
+tags: jQuery, event, beforeunload
+description: "This article describes a simple solution to cross module page closing confirmation handling using jQuery custom event."
 ---
 
 I came across a problem when building a UCG website: how to issue a warning when the user is leaving the current page but has unsaved content?

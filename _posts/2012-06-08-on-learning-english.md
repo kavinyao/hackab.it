@@ -1,9 +1,9 @@
-# On Learning English
-
-- pubdate: 2012-06-08
-- tags: english, learning, experience
-- description: This article is a summary of my language learning model from exprience. Based on the model, an effective method of English learning is introduced.
-
+---
+layout: post
+title: "On Learning English"
+date: 2012-06-08
+tags: english, learning, experience
+description: "This article is a summary of my language learning model from exprience. Based on the model, an effective method of English learning is introduced."
 ---
 
 ***Warning**: This post contains mostly personal opinions,  biases and unfounded speculations.*

@@ -1,9 +1,9 @@
-# Beware of Variable Scope in Python 2
-
-- pubdate: 2013-10-21
-- tags: python, gotcha
-- description: Python 2 handles variable scope loosely. You should especially pay attention of temporary variables in list comprehension.
-
+---
+layout: post
+title: "Beware of Variable Scope in Python 2"
+date: 2013-10-21
+tags: python, gotcha
+description: "Python 2 handles variable scope loosely. You should especially pay attention of temporary variables in list comprehension."
 ---
 
 If you've learned Python in a systematic way, you know that Python 2 has loose, if not poor, variable scope management. For example:

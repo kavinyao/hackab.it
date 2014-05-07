@@ -1,5 +1,7 @@
-# About
-
+---
+layout: page
+title: About
+permalink: /about/
 ---
 
 This is Jiawei "Kavin" Yao.

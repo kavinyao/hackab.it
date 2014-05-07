@@ -1,9 +1,9 @@
-# How Linux Implements Generic Linked List
-
-- pubdate: 2014-01-13
-- tags: C, kernel, data structure
-- description: This article introduces a relatively rarely seen C-implementation of generic linked list, which is actually implemented in the Linux kernel.
-
+---
+layout: post
+title: "How Linux Implements Generic Linked List"
+date: 2014-01-13
+tags: C, kernel, data structure
+description: "This article introduces a relatively rarely seen C-implementation of generic linked list, which is actually implemented in the Linux kernel."
 ---
 
 Since my junior year, I've been primarily programming in pretty high-level languages such as Python and JavaScript. While there's always some hidden cost, high-level languages really help you focus on the problem itself instead of the nuances of implementation, which usually can increase your productivity and avoid frustration.

@@ -1,8 +1,8 @@
-# 大学，知识和我
-
-- pubdate: 2011-12-09
-- tags: college, GRE, knowledge, me, time
-
+---
+layout: post
+title: "大学，知识和我"
+date: 2011-12-09
+tags: college GRE knowledge me time
 ---
 
 ## 大学

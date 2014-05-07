@@ -1,9 +1,9 @@
-# Thinking Functional Programming
-
-- pubdate: 2013-05-18
-- tags: functional programming, thinking, tutorial, introduction
-- description: A little, practical, contrived guide to help you understand functional programming.
-
+---
+layout: post
+title: "Thinking Functional Programming"
+date: 2013-05-18
+tags: functional programming, thinking, tutorial, introduction
+description: "A little, practical, contrived guide to help you understand functional programming."
 ---
 
 I read Loup's article [From Imperative to Functional: how to make the leap][imp-to-func] several days ago. While it's an excellent article and inspires me on several aspects, the approach it takes is a little too obscure. Since I've always wanted to write a post about functional programming (FP), I think it's the time to write down my own (and yet another) little introduction to FP, a more practical version of Loup's article as well.

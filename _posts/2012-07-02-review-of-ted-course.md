@@ -1,9 +1,9 @@
-# TED演讲赏析
-
-- pubdate: 2012-07-02
-- tags: learning, review, ted, thinking
-- description: 这篇文章是我的《TED演讲赏析》课的总结。
-
+---
+layout: post
+title: "TED演讲赏析"
+date: 2012-07-02
+tags: learning, review, ted, thinking
+description: "这篇文章是我的《TED演讲赏析》课的总结。"
 ---
 
 这学期我选了一门名为《TED演讲赏析》的网络选修课，课程要求观看至少30个TED演讲并对每个演讲发表不少于100字的讨论。从5月开始，我以每天1、2个演讲的节奏，最终共观看了32个演讲，完成了这门课。以下是我对这门课的总结。
