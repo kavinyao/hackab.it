@@ -226,6 +226,7 @@ a:visited { color: #205caa; }
 
 .post pre,
 .post code {
+  font-family: consolas, Monaco, "Courier New", monospace;
   border: 1px solid #ddd;
   background-color: #f8f8f8;
   padding: 8px 12px;
