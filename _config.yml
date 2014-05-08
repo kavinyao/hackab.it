@@ -2,10 +2,12 @@
 name: hack a bit
 title: we are what we think
 email: kavinyao@gmail.com
+username: kavinyao
 description: "Personal blog of Kavin Yao."
 baseurl: ""
 url: "http://hackab.it"
 
+# Services
 ga: UA-27956411-1
 disqus: hackabit
 
