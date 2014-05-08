@@ -225,6 +225,10 @@ a:visited { color: #205caa; }
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
+.post pre {
+    overflow: auto;
+}
+
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
