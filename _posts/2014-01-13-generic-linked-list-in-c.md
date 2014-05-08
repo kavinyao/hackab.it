@@ -2,7 +2,7 @@
 layout: post
 title: "How Linux Implements Generic Linked List"
 date: 2014-01-13
-tags: C, kernel, data structure
+tags: [C, kernel, data structure]
 description: "This article introduces a relatively rarely seen C-implementation of generic linked list, which is actually implemented in the Linux kernel."
 ---
 

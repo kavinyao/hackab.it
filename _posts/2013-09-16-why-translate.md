@@ -2,7 +2,7 @@
 layout: post
 title: "我为什么翻译"
 date: 2013-09-16
-tags: learning, translation, college
+tags: [learning, translation, college]
 description: "这篇文章关于我的翻译之路以及翻译的好处。"
 ---
 

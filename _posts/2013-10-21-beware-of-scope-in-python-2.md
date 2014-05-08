@@ -2,7 +2,7 @@
 layout: post
 title: "Beware of Variable Scope in Python 2"
 date: 2013-10-21
-tags: python, gotcha
+tags: [python, gotcha]
 description: "Python 2 handles variable scope loosely. You should especially pay attention of temporary variables in list comprehension."
 ---
 

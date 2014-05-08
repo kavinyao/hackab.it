@@ -2,7 +2,7 @@
 layout: post
 title: "由飞机事故想到的"
 date: 2012-05-27
-tags: human, technology, thought
+tags: [human, technology, thought]
 ---
 
 最近在读《[Outliers](http://book.douban.com/subject/3134517/)》。书的第二部分，为了说明种族因素对异类产生的影响，Malcolm大量引援了飞行事故来支持他的观点。

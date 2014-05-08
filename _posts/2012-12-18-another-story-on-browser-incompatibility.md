@@ -2,7 +2,7 @@
 layout: post
 title: "Another Story on Browser Incompatibility"
 date: 2012-12-18
-tags: browser javascript css dom standard incompatible jQuery
+tags: [browser, javascript, css, dom, standard, incompatiblet, jQuery]
 description: "Github's then textarea mirror function had a cross-browser issue. This article explains why this happens and how to fix it."
 ---
 

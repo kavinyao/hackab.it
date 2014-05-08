@@ -2,7 +2,7 @@
 layout: post
 title: "贝克汉姆，极大元与凸包"
 date: 2012-07-11
-tags: maximal element, convex hall, life
+tags: [maximal element, convex hall, life]
 description: "诚然，我们生活的世界，是一个充满了艺术、需要用感性去体验的世界，但点点滴滴之中也不乏科学的道理。之所以写这篇文章，不仅想记录使用网络发现知识的惊喜与快乐，也是我对理论与生活结合的坚信。"
 ---
 

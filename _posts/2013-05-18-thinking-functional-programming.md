@@ -2,7 +2,7 @@
 layout: post
 title: "Thinking Functional Programming"
 date: 2013-05-18
-tags: functional programming, thinking, tutorial, introduction
+tags: [functional programming, thinking, tutorial, introduction]
 description: "A little, practical, contrived guide to help you understand functional programming."
 ---
 

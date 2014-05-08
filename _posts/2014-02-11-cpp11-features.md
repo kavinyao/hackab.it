@@ -2,7 +2,7 @@
 layout: post
 title: "C++11 Features Every C++ Programmer Should Know"
 date: 2014-02-11
-tags: C++, language
+tags: [C++, language]
 description: "This article introduces several C++11 features that can simplify your C++ program and make you more productive."
 ---
 

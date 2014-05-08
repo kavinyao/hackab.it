@@ -2,7 +2,7 @@
 layout: post
 title: "为什么你应该使用分布式版本控制"
 date: 2012-03-19
-tags: Coding, Git, Mercurial, why
+tags: [coding, git, mercurial, why]
 ---
 
 就我对身边同学的观察来看，版本控制的使用率还是不高。就我个人经历和收集到的反馈来看，没有人喜欢用Subversion（即svn，原因下面会细讲）。既然svn都没人喜欢用，分布式版本控制又是啥玩意？

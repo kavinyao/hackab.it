@@ -2,7 +2,7 @@
 layout: post
 title: "What I Wish I Knew When I Was 20"
 date: 2013-08-18
-tags: life, experience, advice
+tags: [life, experience, advice]
 description: "Kavinyao's list of some life advice."
 ---
 

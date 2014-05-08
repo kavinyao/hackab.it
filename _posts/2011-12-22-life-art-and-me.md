@@ -2,7 +2,7 @@
 layout: post
 title: "生活，艺术和我"
 date: 2011-12-22
-tags: art, GRE, life, me, reading
+tags: [art, GRE, life, me, reading]
 ---
 
 ## 艺术和生活

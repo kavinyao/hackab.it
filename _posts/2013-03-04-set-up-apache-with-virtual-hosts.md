@@ -2,7 +2,7 @@
 layout: post
 title: "Setup MAMP Environment on OS X 10.8"
 date: 2013-03-04
-tags: OS X, PHP, Apache, MySQL
+tags: [OS X, PHP, Apache, MySQL]
 description: "This article describes the procedure of setting up a multi-host Mac-Apache-MySQL-PHP (MAMP) development environment from scratch on OS X Mountain Lion."
 ---
 
