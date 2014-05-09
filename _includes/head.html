@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    {% if include.is_post %}
+    {% if page.is_post %}
     <meta name="description" content="{{ page.description }}">
     {% else %}
     <meta name="description" content="{{ site.description }}">
@@ -15,7 +15,7 @@
     <!-- Custom CSS -->
     <link href="http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    {% if include.is_post %}
+    {% if page.is_post %}
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/github.min.css">
     {% endif %}
 

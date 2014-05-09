@@ -15,6 +15,15 @@ disqus: hackabit
 markdown: kramdown
 permalink: /:year/:month/:title/
 
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: post
+    values:
+      is_post: true
+      author: "Kavin Yao"
+
 # Markdown settings
 kramdown:
     input: GFM
