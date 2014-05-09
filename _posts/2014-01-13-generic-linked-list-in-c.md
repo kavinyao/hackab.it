@@ -21,7 +21,7 @@ typedef struct _listNode {
 } listNode;
 ```
 
-where data points to the actual element and since it's of void pointer type, it can hold any pointer. While such implementation is indeed feasible and obvious, they typically involve heavy dynamic memory allocation (DMA) of list nodes (1 for the data and 1 for the node itself). Everybody knows **DMA is costly**.
+where data points to the actual element and since it's of void pointer type, it can hold any pointer. While such implementation is indeed feasible and obvious, they typically involve heavy dynamic memory allocation (DMA) of list nodes (1 for the data and 1 for the node itself). Everybody knows **DMA is expensive**.
 
 But to construct such dynamic data structure in C, you have to resort to dynamic memory in C! You might say.
 

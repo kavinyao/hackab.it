@@ -48,7 +48,7 @@ I'll omit the theoretical stuff and let's focus on the lines with `max` function
 3. Do we have to put generator/list comprehension outside? The same result.
 4. (the guess is going wild…)
 
-As someone with 4 years' experience in Python (at least my resume says so), I was completed challenged. Luckily, I finally figured out what's happening with [`dis`](http://docs.python.org/2/library/dis.html).
+As someone with 4 years' experience in Python (at least my resume says so), I was completely challenged. Luckily, I finally figured out what's happening with [`dis`](http://docs.python.org/2/library/dis.html).
 
 ## the gotcha
 
