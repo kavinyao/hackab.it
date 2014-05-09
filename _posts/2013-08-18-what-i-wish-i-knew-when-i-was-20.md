@@ -92,20 +92,20 @@ Finally, for those workaholics, life isn't all about hard work. Read [this][humb
 
 [humblebrag]: http://alexstechthoughts.com/post/55085393173/stop-glorifying-hard-work-and-long-hours
 
-## make less safer choices
+## make less safe choices
 
 You are always told the safe paths: safe dishes to eat at an unfamiliar restaurant that are tasteful to most people, safe courses to elect that are most "cost-grade effective", safe career path where you are about to take a middle  managerial role at 35, and so on.
 
 And most of the times, maybe, you follow them. Why not? Not being part of the mainstream incurs (much) more risk. Nobody likes taking risk. Or really?
 
-The problem is that doing things everybody does imposes a greater chance that you become an ordinary person. By ordinary I mean near the middle of a normal distribution. In contrast, following less safer paths makes you a more unique entity. Having a (relatively) less popular hobby, electing a purported difficult course, trying some food with strange name or fancy appearance… (but don't be too extreme.)
+The problem is that doing things everybody does imposes a greater chance that you become an ordinary person. By ordinary I mean near the middle of a normal distribution. In contrast, following less safe paths makes you a more unique entity. Having a (relatively) less popular hobby, electing a purported difficult course, trying some food with strange name or fancy appearance… (but don't be too extreme.)
 
 This is actually a problem of probability. Safe choices may be statistically better, but there's still a chance they don't fit you well. And vice versa. Moreover, safe paths may be the result of [Matthew Effect][matthew] and [Anecdotal Evidence][anecdotal]. You should be critical about this matter.
 
 [matthew]: http://en.wikipedia.org/wiki/Matthew_effect_(sociology)
 [anecdotal]: http://en.wikipedia.org/wiki/Anecdotal_evidence
 
-A specific form of whether to take less safer path is when you get an idea for improvement but have no authority. Naturally, you have two choices: wait for authority, or just do it and beg for forgiveness afterwards. This problem is also discussed in Tina Seeling's book. You should figure out this yourself.
+A specific form of whether to take less safe path is when you get an idea for improvement but have no authority. Naturally, you have two choices: wait for authority, or just do it and beg for forgiveness afterwards. This problem is also discussed in Tina Seeling's book. You should figure out this yourself.
 
 ## attack the essential problem
 
