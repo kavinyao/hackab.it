@@ -22,6 +22,7 @@ defaults:
       path: "" # empty string for all files
       type: post
     values:
+      layout: post
       is_post: true
       author: "Kavin Yao"
 
