@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, minimal-ui">
     {% if page.is_post %}
     <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.tags | join:',' }}">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@{{ site.twitter }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
     {% else %}
     <meta name="description" content="{{ site.description }}">
     {% endif %}
