@@ -34,6 +34,11 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
+.post-content {
+    font-family: Lora, Georgia, Times;
+    font-weight: 400;
+}
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -172,7 +177,7 @@ a:visited { color: #205caa; }
   font-size: 42px;
   letter-spacing: -1.5px;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .post-header .meta {
@@ -193,7 +198,8 @@ a:visited { color: #205caa; }
 .post-content h5,
 .post-content h6 {
   line-height: 1;
-  font-weight: 300;
+  font-family: Lato, Helvetica, Arial, "Heiti SC", STHeiti, STXihei, SimHei, sans-serif;
+  font-weight: 400;
   margin: 40px 0 20px;
 }
 
