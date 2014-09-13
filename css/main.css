@@ -34,9 +34,15 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
+/* use serif-font for body text */
 .post-content {
-    font-family: Lora, Georgia, Times;
+    font-family: Lora, Georgia, "Times New Roman", Times;
     font-weight: 400;
+}
+
+/* add underline to hyperlink for accessibility */
+.post-content a {
+  text-decoration: underline;
 }
 
 
