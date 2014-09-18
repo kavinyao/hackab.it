@@ -45,7 +45,6 @@ a:visited { color: #205caa; }
   text-decoration: underline;
 }
 
-
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
@@ -237,12 +236,11 @@ a:visited { color: #205caa; }
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
-.post pre,
 .post code {
   font-family: consolas, Monaco, "Courier New", monospace;
   border: 1px solid #ddd;
+  padding: 1px 5px;
   background-color: #f8f8f8;
-  padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -250,14 +248,11 @@ a:visited { color: #205caa; }
   overflow: auto;
 }
 
-.post code { padding: 1px 5px; }
-
 .post ul,
 .post ol { margin-left: 1.35em; }
 
 .post pre code {
-  border: none;
-  padding: 1px 0;
+  padding: 8px 12px;
 }
 
 /* terminal */
