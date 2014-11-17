@@ -249,7 +249,7 @@ int main() {
 }
 ```
 
-Here we first constructed regular expression of numbers and a match object (it's prefixed `s` because it's for `string`, there's also a `cmatch` class for `const char*`). Then we use `regex_search` for searching in haystack for numbers. If there's a match, as you would expect, group 0 is the whole matched string, group 1 is the preceding boundary (`(^|\\b)`) and group 1 is the succeeding boundary (`($|\\b)`). You can access each group using `[]` operator.
+Here we first constructed regular expression of numbers and a match object (it's prefixed `s` because it's for `string`, there's also a `cmatch` class for `const char*`). Then we use `regex_search` for searching in haystack for numbers. If there's a match, as you would expect, group 0 is the whole matched string, group 1 is the preceding boundary (`(^|\\b)`) and group 2 is the succeeding boundary (`($|\\b)`). You can access each group using `[]` operator.
 
 Note in this simple example, in order to advance the matching, we use `match.suffix().str()` to get the unmatched part of `haystack`, which is rather inefficient. For performance, use [`std::regex_iterator`](http://en.cppreference.com/w/cpp/regex/regex_iterator#Example) instead.
 
